@@ -1,8 +1,10 @@
 import { Accordion } from './components/Accordion.tsx'
+import { OnOff } from './components/OnOff.tsx'
 
 export const App = () => {
   return (
     <>
+      <OnOff isOn={true} />
       <Accordion
         title="Заголовок аккордиона"
         body="Описание первого аккордиона"

@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.status {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 25px;
+  border: 1px solid black;
+}
+
+.green {
+  background: green;
+  color: white;
+}
+
+.red {
+  background: red;
+  color: white;
+}
+
+.indicator {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
